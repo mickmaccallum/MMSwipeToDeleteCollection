@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA6E41717C2677700B4ACA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA6E41617C2677700B4ACA9 /* Foundation.framework */; };
+		BEA6E41917C2677700B4ACA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA6E41817C2677700B4ACA9 /* CoreGraphics.framework */; };
+		BEA6E41B17C2677700B4ACA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA6E41A17C2677700B4ACA9 /* UIKit.framework */; };
+		BEA6E42117C2677700B4ACA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEA6E41F17C2677700B4ACA9 /* InfoPlist.strings */; };
+		BEA6E42317C2677700B4ACA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6E42217C2677700B4ACA9 /* main.m */; };
+		BEA6E42717C2677700B4ACA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6E42617C2677700B4ACA9 /* AppDelegate.m */; };
+		BEA6E42A17C2677700B4ACA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA6E42817C2677700B4ACA9 /* Main.storyboard */; };
+		BEA6E42D17C2677700B4ACA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6E42C17C2677700B4ACA9 /* ViewController.m */; };
+		BEA6E42F17C2677700B4ACA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA6E42E17C2677700B4ACA9 /* Images.xcassets */; };
+		BEA6E43617C2677800B4ACA9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA6E43517C2677800B4ACA9 /* XCTest.framework */; };
+		BEA6E43717C2677800B4ACA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA6E41617C2677700B4ACA9 /* Foundation.framework */; };
+		BEA6E43817C2677800B4ACA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA6E41A17C2677700B4ACA9 /* UIKit.framework */; };
+		BEA6E44017C2677800B4ACA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEA6E43E17C2677800B4ACA9 /* InfoPlist.strings */; };
+		BEA6E44217C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6E44117C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA6E43917C2677800B4ACA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA6E40B17C2677700B4ACA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA6E41217C2677700B4ACA9;
+			remoteInfo = MMSwipeToDeleteCollection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEA6E41317C2677700B4ACA9 /* MMSwipeToDeleteCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMSwipeToDeleteCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA6E41617C2677700B4ACA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEA6E41817C2677700B4ACA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BEA6E41A17C2677700B4ACA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BEA6E41E17C2677700B4ACA9 /* MMSwipeToDeleteCollection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMSwipeToDeleteCollection-Info.plist"; sourceTree = "<group>"; };
+		BEA6E42017C2677700B4ACA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEA6E42217C2677700B4ACA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEA6E42417C2677700B4ACA9 /* MMSwipeToDeleteCollection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMSwipeToDeleteCollection-Prefix.pch"; sourceTree = "<group>"; };
+		BEA6E42517C2677700B4ACA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEA6E42617C2677700B4ACA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEA6E42917C2677700B4ACA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEA6E42B17C2677700B4ACA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEA6E42C17C2677700B4ACA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEA6E42E17C2677700B4ACA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEA6E43417C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMSwipeToDeleteCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA6E43517C2677800B4ACA9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BEA6E43D17C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMSwipeToDeleteCollectionTests-Info.plist"; sourceTree = "<group>"; };
+		BEA6E43F17C2677800B4ACA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEA6E44117C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMSwipeToDeleteCollectionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA6E41017C2677700B4ACA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6E41917C2677700B4ACA9 /* CoreGraphics.framework in Frameworks */,
+				BEA6E41B17C2677700B4ACA9 /* UIKit.framework in Frameworks */,
+				BEA6E41717C2677700B4ACA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA6E43117C2677800B4ACA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6E43617C2677800B4ACA9 /* XCTest.framework in Frameworks */,
+				BEA6E43817C2677800B4ACA9 /* UIKit.framework in Frameworks */,
+				BEA6E43717C2677800B4ACA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEA6E40A17C2677700B4ACA9 = {
+			isa = PBXGroup;
+			children = (
+				BEA6E41C17C2677700B4ACA9 /* MMSwipeToDeleteCollection */,
+				BEA6E43B17C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests */,
+				BEA6E41517C2677700B4ACA9 /* Frameworks */,
+				BEA6E41417C2677700B4ACA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA6E41417C2677700B4ACA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6E41317C2677700B4ACA9 /* MMSwipeToDeleteCollection.app */,
+				BEA6E43417C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA6E41517C2677700B4ACA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6E41617C2677700B4ACA9 /* Foundation.framework */,
+				BEA6E41817C2677700B4ACA9 /* CoreGraphics.framework */,
+				BEA6E41A17C2677700B4ACA9 /* UIKit.framework */,
+				BEA6E43517C2677800B4ACA9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEA6E41C17C2677700B4ACA9 /* MMSwipeToDeleteCollection */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6E42517C2677700B4ACA9 /* AppDelegate.h */,
+				BEA6E42617C2677700B4ACA9 /* AppDelegate.m */,
+				BEA6E42817C2677700B4ACA9 /* Main.storyboard */,
+				BEA6E42B17C2677700B4ACA9 /* ViewController.h */,
+				BEA6E42C17C2677700B4ACA9 /* ViewController.m */,
+				BEA6E42E17C2677700B4ACA9 /* Images.xcassets */,
+				BEA6E41D17C2677700B4ACA9 /* Supporting Files */,
+			);
+			path = MMSwipeToDeleteCollection;
+			sourceTree = "<group>";
+		};
+		BEA6E41D17C2677700B4ACA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6E41E17C2677700B4ACA9 /* MMSwipeToDeleteCollection-Info.plist */,
+				BEA6E41F17C2677700B4ACA9 /* InfoPlist.strings */,
+				BEA6E42217C2677700B4ACA9 /* main.m */,
+				BEA6E42417C2677700B4ACA9 /* MMSwipeToDeleteCollection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEA6E43B17C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6E44117C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests.m */,
+				BEA6E43C17C2677800B4ACA9 /* Supporting Files */,
+			);
+			path = MMSwipeToDeleteCollectionTests;
+			sourceTree = "<group>";
+		};
+		BEA6E43C17C2677800B4ACA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6E43D17C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests-Info.plist */,
+				BEA6E43E17C2677800B4ACA9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA6E41217C2677700B4ACA9 /* MMSwipeToDeleteCollection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA6E44517C2677800B4ACA9 /* Build configuration list for PBXNativeTarget "MMSwipeToDeleteCollection" */;
+			buildPhases = (
+				BEA6E40F17C2677700B4ACA9 /* Sources */,
+				BEA6E41017C2677700B4ACA9 /* Frameworks */,
+				BEA6E41117C2677700B4ACA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMSwipeToDeleteCollection;
+			productName = MMSwipeToDeleteCollection;
+			productReference = BEA6E41317C2677700B4ACA9 /* MMSwipeToDeleteCollection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEA6E43317C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA6E44817C2677800B4ACA9 /* Build configuration list for PBXNativeTarget "MMSwipeToDeleteCollectionTests" */;
+			buildPhases = (
+				BEA6E43017C2677800B4ACA9 /* Sources */,
+				BEA6E43117C2677800B4ACA9 /* Frameworks */,
+				BEA6E43217C2677800B4ACA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA6E43A17C2677800B4ACA9 /* PBXTargetDependency */,
+			);
+			name = MMSwipeToDeleteCollectionTests;
+			productName = MMSwipeToDeleteCollectionTests;
+			productReference = BEA6E43417C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA6E40B17C2677700B4ACA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "MacCDevTeam LLC";
+				TargetAttributes = {
+					BEA6E43317C2677800B4ACA9 = {
+						TestTargetID = BEA6E41217C2677700B4ACA9;
+					};
+				};
+			};
+			buildConfigurationList = BEA6E40E17C2677700B4ACA9 /* Build configuration list for PBXProject "MMSwipeToDeleteCollection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA6E40A17C2677700B4ACA9;
+			productRefGroup = BEA6E41417C2677700B4ACA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA6E41217C2677700B4ACA9 /* MMSwipeToDeleteCollection */,
+				BEA6E43317C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA6E41117C2677700B4ACA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6E42F17C2677700B4ACA9 /* Images.xcassets in Resources */,
+				BEA6E42117C2677700B4ACA9 /* InfoPlist.strings in Resources */,
+				BEA6E42A17C2677700B4ACA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA6E43217C2677800B4ACA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6E44017C2677800B4ACA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA6E40F17C2677700B4ACA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6E42D17C2677700B4ACA9 /* ViewController.m in Sources */,
+				BEA6E42717C2677700B4ACA9 /* AppDelegate.m in Sources */,
+				BEA6E42317C2677700B4ACA9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA6E43017C2677800B4ACA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6E44217C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA6E43A17C2677800B4ACA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA6E41217C2677700B4ACA9 /* MMSwipeToDeleteCollection */;
+			targetProxy = BEA6E43917C2677800B4ACA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEA6E41F17C2677700B4ACA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA6E42017C2677700B4ACA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEA6E42817C2677700B4ACA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA6E42917C2677700B4ACA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEA6E43E17C2677800B4ACA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA6E43F17C2677800B4ACA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA6E44317C2677800B4ACA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEA6E44417C2677800B4ACA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA6E44617C2677800B4ACA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMSwipeToDeleteCollection/MMSwipeToDeleteCollection-Prefix.pch";
+				INFOPLIST_FILE = "MMSwipeToDeleteCollection/MMSwipeToDeleteCollection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEA6E44717C2677800B4ACA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMSwipeToDeleteCollection/MMSwipeToDeleteCollection-Prefix.pch";
+				INFOPLIST_FILE = "MMSwipeToDeleteCollection/MMSwipeToDeleteCollection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BEA6E44917C2677800B4ACA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMSwipeToDeleteCollection.app/MMSwipeToDeleteCollection";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMSwipeToDeleteCollection/MMSwipeToDeleteCollection-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MMSwipeToDeleteCollectionTests/MMSwipeToDeleteCollectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BEA6E44A17C2677800B4ACA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMSwipeToDeleteCollection.app/MMSwipeToDeleteCollection";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMSwipeToDeleteCollection/MMSwipeToDeleteCollection-Prefix.pch";
+				INFOPLIST_FILE = "MMSwipeToDeleteCollectionTests/MMSwipeToDeleteCollectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA6E40E17C2677700B4ACA9 /* Build configuration list for PBXProject "MMSwipeToDeleteCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA6E44317C2677800B4ACA9 /* Debug */,
+				BEA6E44417C2677800B4ACA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA6E44517C2677800B4ACA9 /* Build configuration list for PBXNativeTarget "MMSwipeToDeleteCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA6E44617C2677800B4ACA9 /* Debug */,
+				BEA6E44717C2677800B4ACA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEA6E44817C2677800B4ACA9 /* Build configuration list for PBXNativeTarget "MMSwipeToDeleteCollectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA6E44917C2677800B4ACA9 /* Debug */,
+				BEA6E44A17C2677800B4ACA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA6E40B17C2677700B4ACA9 /* Project object */;
+}

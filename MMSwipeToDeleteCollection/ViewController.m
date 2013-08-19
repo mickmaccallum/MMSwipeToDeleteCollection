@@ -9,7 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (strong, nonatomic) NSMutableArray *dataArray;
 @end
 
 @implementation ViewController
@@ -17,13 +18,36 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deleteSwipedCell:) name:@"DeleteSwipedCellNotification" object:nil];
+
+    self.dataArray = [NSMutableArray new];
+    for (int i = 0 ; i < 100 ; i ++) {
+        [self.dataArray addObject:[NSNull null]];
+    }
 }
 
-- (void)didReceiveMemoryWarning
+- (void)deleteSwipedCell:(NSNotification *)sender
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSLog(@"%@",sender.object);
+    NSIndexPath *indexPathToDelete = sender.object;
+    
+    [self.dataArray removeObjectAtIndex:indexPathToDelete.row];
+    [self.collectionView deleteItemsAtIndexPaths:@[indexPathToDelete]];
 }
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    return self.dataArray.count;
+}
+
+- (SwipeableCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellID = @"CELLID";
+    SwipeableCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellID forIndexPath:indexPath];
+
+    return cell;
+}
+
 
 @end

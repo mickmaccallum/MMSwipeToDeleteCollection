@@ -14,13 +14,14 @@
 		BEA6E42317C2677700B4ACA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6E42217C2677700B4ACA9 /* main.m */; };
 		BEA6E42717C2677700B4ACA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6E42617C2677700B4ACA9 /* AppDelegate.m */; };
 		BEA6E42A17C2677700B4ACA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA6E42817C2677700B4ACA9 /* Main.storyboard */; };
-		BEA6E42D17C2677700B4ACA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6E42C17C2677700B4ACA9 /* ViewController.m */; };
 		BEA6E42F17C2677700B4ACA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA6E42E17C2677700B4ACA9 /* Images.xcassets */; };
 		BEA6E43617C2677800B4ACA9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA6E43517C2677800B4ACA9 /* XCTest.framework */; };
 		BEA6E43717C2677800B4ACA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA6E41617C2677700B4ACA9 /* Foundation.framework */; };
 		BEA6E43817C2677800B4ACA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA6E41A17C2677700B4ACA9 /* UIKit.framework */; };
 		BEA6E44017C2677800B4ACA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEA6E43E17C2677800B4ACA9 /* InfoPlist.strings */; };
 		BEA6E44217C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6E44117C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests.m */; };
+		BEA6E44D17C267A400B4ACA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6E44C17C267A400B4ACA9 /* ViewController.m */; };
+		BEA6E45017C2697C00B4ACA9 /* SwipeableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA6E44F17C2697C00B4ACA9 /* SwipeableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		BEA6E42517C2677700B4ACA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEA6E42617C2677700B4ACA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BEA6E42917C2677700B4ACA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BEA6E42B17C2677700B4ACA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BEA6E42C17C2677700B4ACA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BEA6E42E17C2677700B4ACA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BEA6E43417C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMSwipeToDeleteCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA6E43517C2677800B4ACA9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BEA6E43D17C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMSwipeToDeleteCollectionTests-Info.plist"; sourceTree = "<group>"; };
 		BEA6E43F17C2677800B4ACA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BEA6E44117C2677800B4ACA9 /* MMSwipeToDeleteCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMSwipeToDeleteCollectionTests.m; sourceTree = "<group>"; };
+		BEA6E44B17C267A400B4ACA9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEA6E44C17C267A400B4ACA9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEA6E44E17C2697C00B4ACA9 /* SwipeableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeableCell.h; sourceTree = "<group>"; };
+		BEA6E44F17C2697C00B4ACA9 /* SwipeableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,10 @@
 				BEA6E42517C2677700B4ACA9 /* AppDelegate.h */,
 				BEA6E42617C2677700B4ACA9 /* AppDelegate.m */,
 				BEA6E42817C2677700B4ACA9 /* Main.storyboard */,
-				BEA6E42B17C2677700B4ACA9 /* ViewController.h */,
-				BEA6E42C17C2677700B4ACA9 /* ViewController.m */,
+				BEA6E44B17C267A400B4ACA9 /* ViewController.h */,
+				BEA6E44C17C267A400B4ACA9 /* ViewController.m */,
+				BEA6E44E17C2697C00B4ACA9 /* SwipeableCell.h */,
+				BEA6E44F17C2697C00B4ACA9 /* SwipeableCell.m */,
 				BEA6E42E17C2677700B4ACA9 /* Images.xcassets */,
 				BEA6E41D17C2677700B4ACA9 /* Supporting Files */,
 			);
@@ -249,8 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA6E42D17C2677700B4ACA9 /* ViewController.m in Sources */,
+				BEA6E44D17C267A400B4ACA9 /* ViewController.m in Sources */,
 				BEA6E42717C2677700B4ACA9 /* AppDelegate.m in Sources */,
+				BEA6E45017C2697C00B4ACA9 /* SwipeableCell.m in Sources */,
 				BEA6E42317C2677700B4ACA9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

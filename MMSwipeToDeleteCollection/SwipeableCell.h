@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SwipeableCell.h
 //  MMSwipeToDeleteCollection
 //
 //  Created by Photo on 8/19/13.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SwipeableCell.h"
 
-@interface ViewController : UIViewController < UICollectionViewDataSource, UICollectionViewDelegate >
+@interface SwipeableCell : UICollectionViewCell < UIGestureRecognizerDelegate >
 
 @end
